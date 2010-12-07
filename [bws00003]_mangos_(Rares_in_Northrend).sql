@@ -6,9 +6,9 @@ WHERE entry IN (32630, 32491);
 
 -- Add flying animation to `creature_template_addon`
 DELETE FROM creature_template_addon WHERE entry IN (32491, 32630);
-INSERT INTO creature_template_addon VALUES 
-(32491, 0, 50331648, 0, 0, 0, NULL),
-(32630, 0, 50331648, 0, 0, 0, NULL);
+INSERT INTO creature_template_addon (entry, bytes1) VALUES 
+(32491, 50331648),
+(32630, 50331648);
 
 -- Add EventAI OOC Despawn after 15-30 min.
 DELETE FROM creature_ai_scripts WHERE id IN (3249103, 3249104, 3263003);
