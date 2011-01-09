@@ -1,0 +1,128 @@
+-- INSTANCE Azjol-Nerub: Ahnkahet: The Old Kingdom
+UPDATE creature_template SET AIname='EventAI' WHERE entry=30176;
+DELETE FROM creature_ai_scripts WHERE creature_id=30176;
+INSERT IGNORE INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, comment) VALUES
+(3017601, 30176, 4, 0, 100, 6, 0, 0, 0, 0, 11, 56354, 0, 6, 11, 56151, 0, 7, 0, 0, 0, 0, 'Ahn\'kahar Guardian - Cast Sprint and Guardian Aura at aggro'),
+(3017602, 30176, 8, 0, 100, 7, 56153, -1, 0, 0, 28, 0, 56153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Ahn\'kahar Guardian - remove Guardian Aura trigger spell (hack)');
+
+-- INSTANCE Azjol-Nerub: Azjol-Nerub
+update creature_template set AIName='EventAI', ScriptName='' where entry=28921;
+delete from creature_ai_scripts where creature_id=28921;
+insert into creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, comment) values
+-- Hadronox
+(2892101, 28921, 0, 0, 100, 3, 12000, 15000, 30000, 40000, 11, 53400, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - cast Acid cloud (Normal)'),
+(2892102, 28921, 0, 0, 100, 5, 12000, 15000, 30000, 40000, 11, 59419, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - cast Acid cloud (Heroic)'),
+(2892103, 28921, 0, 0, 100, 3, 8000, 10000, 36500, 42000, 11, 53406, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - cast WEB grab (Normal)'),
+(2892104, 28921, 0, 0, 100, 5, 8000, 10000, 36500, 42000, 11, 59420, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - cast WEB grab (Heroic)'),
+(2892105, 28921, 0, 0, 100, 3, 25000, 27000, 22000, 25000, 11, 53030, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - Leech Poison (Normal)'),
+(2892106, 28921, 0, 0, 100, 5, 25000, 27000, 22000, 25000, 11, 59417, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - Leech Poison (Heroic)'),
+(2892107, 28921, 0, 0, 100, 7, 23000, 33000, 12500, 15000, 11, 53418, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - cast pierce armor');
+
+-- INSTANCE Naxxramas
+UPDATE creature_template SET AIName='EventAI' WHERE entry=16981;
+DELETE FROM creature_ai_scripts WHERE creature_id=16981;
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, comment) VALUES
+-- Plagued Guardian
+(1698101, 16981, 0, 0, 100, 3, 6000, 7000, 6000, 7000, 11, 54890, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(1698102, 16981, 0, 0, 100, 5, 6000, 7000, 6000, 7000, 11, 54891, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, '');
+
+-- INSTANCE Vault of Archavon
+update creature_template set AIName='EventAI' where entry=32353;
+delete from creature_ai_scripts where creature_id=32353;
+insert into creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, comment) values
+(3235301, 32353, 0, 0, 50, 3, 20000, 21000, 20000, 25000, 11, 60897, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Archavon Warder - Cast Shield Crush (Normal)'),
+(3235302, 32353, 0, 0, 50, 5, 20000, 21000, 20000, 25000, 11, 60899, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Archavon Warder - Cast Shield Crush (Heroic)'),
+(3235303, 32353, 0, 0, 100, 3, 12000, 14000, 12000, 14000, 11, 60902, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Archavon Warder - Cast Whirl (Normal)'),
+(3235304, 32353, 0, 0, 100, 5, 12000, 14000, 12000, 14000, 11, 60916, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Archavon Warder - Cast Whirl (Heroic)'),
+(3235305, 32353, 0, 0, 100, 3, 8000, 10000, 20000, 25000, 11, 60919, 4, 6, 0, 0, 0, 0, 0, 0, 0, 0, 'Archavon Warder - Cast Rock Shower (Normal)'),
+(3235306, 32353, 0, 0, 100, 5, 8000, 10000, 20000, 25000, 11, 60923, 4, 6, 0, 0, 0, 0, 0, 0, 0, 0, 'Archavon Warder - Cast Rock Shower (Heroic)');
+
+-- NPC Training Dummies
+update creature_template set minhealth=1000000, maxhealth=1000000, armor=0 where entry=31144;
+update creature_template set mechanic_immune_mask=12656656 where entry in (31144, 31146, 32547);
+update creature_template set AIName='EventAI' where entry in (31144, 31146, 32547);
+delete from creature_ai_scripts where creature_id in (31144, 31146, 32547);
+insert into creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, comment) values
+(3114401, 31144, 1, 0, 100, 0, 0, 0, 0, 0, 42, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - don\'t die'),
+(3114402, 31144, 0, 0, 100, 1, 120000, 120000, 120000, 120000, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - evade'),
+(3114403, 31144, 4, 0, 100, 0, 0, 0, 0, 0, 20, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - disable autoattack and combat movement'),
+(3114404, 31144, 0, 0, 100, 1, 5000, 5000, 5000, 5000, 11, 43978, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - cast Lay on Hands'),
+(3114601, 31146, 1, 0, 100, 0, 0, 0, 0, 0, 42, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - don\'t die'),
+(3114602, 31146, 0, 0, 100, 1, 120000, 120000, 120000, 120000, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - evade'),
+(3114603, 31146, 4, 0, 100, 0, 0, 0, 0, 0, 20, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - disable autoattack and combat movement'),
+(3114604, 31146, 0, 0, 100, 1, 5000, 5000, 5000, 5000, 11, 43978, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - cast Lay on Hands'),
+(3254701, 32547, 1, 0, 100, 0, 0, 0, 0, 0, 42, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - don\'t die'),
+(3254702, 32547, 0, 0, 100, 1, 120000, 120000, 120000, 120000, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - evade'),
+(3254703, 32547, 4, 0, 100, 0, 0, 0, 0, 0, 20, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - disable autoattack and combat movement'),
+(3254704, 32547, 0, 0, 100, 1, 5000, 5000, 5000, 5000, 11, 43978, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 'Training Dummy - cast Lay on Hands');
+
+-- NPC Halfdan the Ice-Hearted
+DELETE FROM creature_ai_scripts WHERE creature_id=23671;
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(2367101, 23671, 0, 0, 100, 1, 5000, 6000, 14000, 16000, 11, 32015, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Halfdan the Ice-Hearted - Cast Cutdown'),
+(2367102, 23671, 0, 0, 100, 1, 7000, 8000, 9000, 11000, 11, 32736, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Halfdan the Ice-Hearted - Cast Mortal Strike'),
+(2367103, 23671, 0, 0, 100, 1, 8000, 8000, 13000, 16000, 11, 12169, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Halfdan the Ice-Hearted - Casts Shield Block'),
+(2367104, 23671, 4, 0, 100, 0, 0, 0, 0, 0, 11, 19131, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Halfdan the Ice-Hearted - Cast Shield Charge'),
+(2367105, 23671, 2, 0, 100, 1, 30, 0, 120000, 120000, 11, 8599, 0, 1, 1, -46, 0, 0, 0, 0, 0, 0, 'Halfdan the Ice-Hearted - Cast Enrage at 30% HP');
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 23671;
+
+-- Hunter Snake Trap support
+-- NPC Hunter Venomous Snake
+DELETE FROM creature_ai_scripts WHERE creature_id=19833;
+INSERT INTO creature_ai_scripts VALUES 
+(1983301, 19833, 0, 0, 50, 1, 0, 0, 12000, 12000, 11, 25809, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Venomous Snake - Cast Crippling poison'),
+(1983302, 19833, 0, 0, 50, 1, 1000, 1000, 12000, 12000, 11, 25810, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Venomous Snake - Cast Mind-numbing Poison'),
+(1983303, 19833, 0, 0, 25, 1, 0, 0, 13000, 13000, 11, 34655, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Venomous Snake - Cast Deadly Poison');
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 19833;
+-- NPC Hunter Viper
+DELETE FROM creature_ai_scripts WHERE creature_id=19921;
+INSERT INTO creature_ai_scripts VALUES 
+(1992101, 19921, 0, 0, 50, 1, 0, 0, 6000, 6000, 11, 25809, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Viper - Cast Crippling poison'),
+(1992102, 19921, 0, 0, 50, 1, 1000, 1000, 6000, 6000, 11, 25810, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Viper - Cast Mind-numbing Poison'),
+(1992103, 19921, 0, 0, 25, 1, 0, 0, 7000, 7000, 11, 34655, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Viper - Cast Deadly Poison' );
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 19921;
+
+-- NPC Snowdrift Jormungar
+UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (2939002, 2939003);
+
+-- NPC Infesting Jormungar
+UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (3014802, 3014803);
+
+-- QUEST Scalps!
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 28600;
+DELETE FROM creature_ai_scripts WHERE id=2846505;
+DELETE FROM creature_ai_scripts WHERE creature_id=28600;
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(2846505, 28465, 8, 0, 100, 1, 52090, -1, 0, 0, 33, 28622, 6, 0, 41, 0, 0, 0, 0, 0, 0, 0, 'quest kill credit 28622 (q12659)'),
+(2860001, 28600, 8, 0, 100, 1, 52090, -1, 0, 0, 33, 28622, 6, 0, 41, 0, 0, 0, 0, 0, 0, 0, 'quest kill credit 28622 (q12659)');
+
+-- QUEST The Restless Dead
+DELETE FROM creature_ai_scripts WHERE id IN (3104301, 3104302);
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(3104301, 31043, 8, 0, 100, 1, 57806, 1, 0, 300000, 33, 30546, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'quest kill credit 29060 (q13110)'),
+(3104302, 31043, 11, 0, 100, 1, 0, 0, 0, 0, 28, 0, 57806, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'remove aura from spell 57806 when creature spawn');
+
+-- QUEST The Last of Her Kind (dirty hack)
+DELETE FROM creature_ai_scripts WHERE creature_id=29563;
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(2956351, 29563, 10, 0, 100, 1, 1, 10, 2000, 2000, 33, 29563, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'when player moves within 10m - kill credit q12983');
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 29563;
+
+-- QUEST The Drakkensryd (dirty hack)
+DELETE FROM creature_ai_scripts WHERE id=2969402;
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(2969402, 29694, 8, 0, 100, 0, 54933, -1, 60000, 60000, 33, 29800, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'quest kill credit 29800 (q12886)');
+
+-- QUEST Smoke 'Em Out
+DELETE FROM creature_ai_texts WHERE entry IN (-275701, -275702);
+INSERT INTO creature_ai_texts (entry, content_default, 
+content_loc1, content_loc2, content_loc3, content_loc4, content_loc5, content_loc6, content_loc7, content_loc8, 
+sound, type, language, emote, comment) VALUES
+(-275701, "We're all gonna die!",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"Venture Co. Straggler"),
+(-275702, "Gotta get out of here!",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,"Venture Co. Straggler");
+DELETE FROM creature_ai_scripts WHERE id=2757002;
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, 
+action1_type, action1_param1, action1_param2, action1_param3, 
+action2_type, action2_param1, action2_param2, action2_param3, 
+action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(2757002,27570,8,0,100,1,49075,-1,0,0,1,-275701,-275702,0,33,27568,1,0,41,1000,0,0,"Smoke 'Em Out");
