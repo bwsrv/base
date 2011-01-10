@@ -88,6 +88,9 @@ UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (29390
 -- NPC Infesting Jormungar
 UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (3014802, 3014803);
 
+-- NPC Serfex the Reaver
+UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (2808302, 2808303);
+
 -- QUEST Scalps!
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 28600;
 DELETE FROM creature_ai_scripts WHERE id=2846505;
