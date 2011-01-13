@@ -144,3 +144,8 @@ action1_type, action1_param1, action1_param2, action1_param3,
 action2_type, action2_param1, action2_param2, action2_param3, 
 action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
 (2757002,27570,8,0,100,1,49075,-1,0,0,1,-275701,-275702,0,33,27568,1,0,41,1000,0,0,"Smoke 'Em Out");
+
+-- QUEST Souls of the Decursed
+DELETE FROM creature_ai_scripts WHERE creature_id = 25814 AND id = 2581402;
+INSERT INTO creature_ai_scripts VALUES
+(2581402,25814,8,0,100,0,46485,-1,0,0,33,26096,6,0,0,0,0,0,0,0,0,0,'Fizzcrank Mechagnome - Soul Quest Credit ');
