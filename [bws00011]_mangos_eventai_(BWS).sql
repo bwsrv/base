@@ -91,6 +91,21 @@ UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (30148
 -- NPC Serfex the Reaver
 UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (2808302, 2808303);
 
+-- NPC Mature Bone Sifter
+UPDATE creature_template SET AIName='EventAI' WHERE entry=22482;
+DELETE FROM creature_ai_scripts WHERE creature_id=22482;
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, comment) VALUES
+(2248201, 22482, 1, 0, 100, 0, 0, 0, 500, 500, 11, 20567, 0, 0, 18, 33554434, 0, 0, 0, 0, 0, 0, 'Mature Bone Sifter - Cast Submerge Visual OOC and Set Unselectable and Unattackable Flags and Start Combat Movement'),
+(2248202, 22482, 10, 0, 100, 0, 0, 15, 0, 0, 28, 0, 20567, 0, 28, 0, 29147, 0, 11, 37752, 0, 0, 'Mature Bone Sifter - On OOC LOS (15 yards) Remove Submerge Visual and Tunnel Bore Passive and Cast Stand'),
+(2248203, 22482, 10, 0, 100, 0, 0, 15, 0, 0, 21, 0, 0, 0, 19, 33554434, 0, 0, 22, 1, 0, 0, 'Mature Bone Sifter - On OOC LOS (15 yards) Prevent Combat Movement Remove Unselectable and Unattackable Flags and Set Phase 1'),
+(2248204, 22482, 0, 1, 100, 1, 1000, 1000, 2100, 4500, 11, 31747, 1, 0, 21, 0, 0, 0, 0, 0, 0, 0, 'Mature Bone Sifter - Cast Poison (Phase 1)'),
+(2248205, 22482, 0, 1, 100, 1, 10000, 20000, 45000, 50000, 11, 32738, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Mature Bone Sifter - Phase 1 Cast Bore'),
+(2248206, 22482, 9, 0, 100, 0, 20, 60, 0, 0, 11, 20567, 0, 0, 11, 29147, 0, 0, 22, 2, 0, 0, 'Mature Bone Sifter - At 20 - 60 Yards Range Cast Submerge Visual and Tunnel Bore Passive Set Phase 2 (Phase 1)'),
+(2248207, 22482, 9, 1, 100, 0, 0, 8, 0, 0, 28, 0, 20567, 0, 28, 0, 29147, 0, 11, 37752, 0, 0, 'Mature Bone Sifter - At 0 - 8 Yards Range Remove Submerge Visual and Tunnel Bore Passive and Cast Stand (Phase 2)'),
+(2248208, 22482, 9, 1, 100, 0, 0, 8, 0, 0, 21, 0, 0, 0, 19, 33554434, 0, 0, 22, 1, 0, 0, 'Mature Bone Sifter - At 0 - 8 Yards Range Prevent Combat Movement Remove Unselectable and Unattackable Flags and Set Phase 1 (Phase 2)'),
+(2248209, 22482, 7, 0, 100, 0, 0, 0, 0, 0, 11, 20567, 0, 0, 22, 1, 0, 0, 11, 29147, 0, 0, 'Mature Bone Sifter - On Evade Set Phase to 1 Cast Submerge and Set Flag Unattackable'),
+(2248210, 22482, 7, 0, 100, 0, 0, 0, 0, 0, 14, -100, 0, 0, 18, 33554434, 0, 0, 0, 0, 0, 0, 'Mature Bone Sifter - On Evade Drop Aggro and Set Unselectable and Unattackable Flags');
+
 -- QUEST Scalps!
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 28600;
 DELETE FROM creature_ai_scripts WHERE id=2846505;
