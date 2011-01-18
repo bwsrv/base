@@ -14415,7 +14415,7 @@ INSERT INTO creature_ai_scripts (id,creature_id,event_type,event_inverse_phase_m
 (994,33448,4,0,50,0,0,0,0,0,11,63010,1,0,0,0,0,0,0,0,0,0,'Argent Champion - Cast Charge on Aggro (chance 50%)'),
 (1013,34127,4,0,50,0,0,0,0,0,11,65147,1,0,0,0,0,0,0,0,0,0,'Boneguard Commander - Cast Shield-Breaker on Aggro (chance 50%)'),
 (1014,34127,4,0,50,0,0,0,0,0,11,63010,1,0,0,0,0,0,0,0,0,0,'Boneguard Commander - Cast Charge on Aggro (chance 50%)'),
-(1015,34127,1,0,100,1,1000,1000,0,0,11,60023,0,0,0,0,0,0,0,0,0,0,'Boneguard Commander - Scourge Banner Aura on Spawn'),
+(1015,34127,1,0,100,1,1000,1000,1800000,1800000,11,60023,0,0,0,0,0,0,0,0,0,0,'Boneguard Commander - Scourge Banner Aura on Spawn'),
 (1016,33429,4,0,100,0,0,0,0,0,11,63010,1,0,0,0,0,0,0,0,0,0,'Boneguard Lieutenant - Cast Charge on Aggro'),
 (1017,33550,0,0,100,1,1000,1000,3000,5000,11,63233,1,0,0,0,0,0,0,0,0,0,'Boneguard Scout - Cast Necrocution'),
 (1067,33537,0,0,100,1,3000,4000,4000,5000,11,14873,1,0,0,0,0,0,0,0,0,0,'Cult Conspirator - Cast Sinister Strike'),
