@@ -149,3 +149,15 @@ action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
 DELETE FROM creature_ai_scripts WHERE creature_id = 25814 AND id = 2581402;
 INSERT INTO creature_ai_scripts VALUES
 (2581402,25814,8,0,100,0,46485,-1,0,0,33,26096,6,0,0,0,0,0,0,0,0,0,'Fizzcrank Mechagnome - Soul Quest Credit ');
+
+-- Catrina "The Grateful Dead"
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 34383;
+DELETE FROM creature_ai_scripts WHERE creature_id = 34383;
+INSERT INTO creature_ai_scripts VALUES ('3438301','34383','22','0','100','1','34','0','0','0','11','65386','6','0','0','0','0','0','0','0','0','0','Catrina - Cast Honor the Dead when receiving Dance emote');
+
+-- High Cultist Herenn - Say on Aggro
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 28601;
+DELETE FROM creature_ai_texts WHERE entry = -286011;
+INSERT INTO creature_ai_texts VALUES (-286011,'Fool! You led us to the only being that could stand up to our armies! You will never bring the Etymidian back to Northrend!',0,0,0,0,0,0,0,0,0,0,0,0,'High Cultist Herenn combat say');
+DELETE FROM creature_ai_scripts WHERE creature_id = 28601;
+INSERT INTO creature_aI_scripts VALUES (2860101,28601,4,0,100,0,0,0,0,0,1,-286011,0,0,0,0,0,0,0,0,0,0,'High Cultist Herenn - Say on Aggro');
