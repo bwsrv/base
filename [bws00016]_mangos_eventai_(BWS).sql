@@ -18,14 +18,6 @@ insert into creature_ai_scripts (id, creature_id, event_type, event_inverse_phas
 (2892106, 28921, 0, 0, 100, 5, 25000, 27000, 22000, 25000, 11, 59417, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - Leech Poison (Heroic)'),
 (2892107, 28921, 0, 0, 100, 7, 23000, 33000, 12500, 15000, 11, 53418, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Hadronox - cast pierce armor');
 
--- INSTANCE Naxxramas
-UPDATE creature_template SET AIName='EventAI' WHERE entry=16981;
-DELETE FROM creature_ai_scripts WHERE creature_id=16981;
-INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, comment) VALUES
--- Plagued Guardian
-(1698101, 16981, 0, 0, 100, 3, 6000, 7000, 6000, 7000, 11, 54890, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, ''),
-(1698102, 16981, 0, 0, 100, 5, 6000, 7000, 6000, 7000, 11, 54891, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, '');
-
 -- INSTANCE Vault of Archavon
 update creature_template set AIName='EventAI' where entry=32353;
 delete from creature_ai_scripts where creature_id=32353;
@@ -81,15 +73,6 @@ INSERT INTO creature_ai_scripts VALUES
 (1992102, 19921, 0, 0, 50, 1, 1000, 1000, 6000, 6000, 11, 25810, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Viper - Cast Mind-numbing Poison'),
 (1992103, 19921, 0, 0, 25, 1, 0, 0, 7000, 7000, 11, 34655, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Viper - Cast Deadly Poison' );
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 19921;
-
--- NPC Snowdrift Jormungar
-UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (2939002, 2939003);
-
--- NPC Infesting Jormungar
-UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (3014802, 3014803);
-
--- NPC Serfex the Reaver
-UPDATE creature_ai_scripts SET event_type=10, event_param2=15 WHERE id IN (2808302, 2808303);
 
 -- NPC Mature Bone Sifter
 UPDATE creature_template SET AIName='EventAI' WHERE entry=22482;
