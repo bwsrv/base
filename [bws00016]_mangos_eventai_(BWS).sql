@@ -143,4 +143,4 @@ UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 28601;
 DELETE FROM creature_ai_texts WHERE entry = -286011;
 INSERT INTO creature_ai_texts VALUES (-286011,'Fool! You led us to the only being that could stand up to our armies! You will never bring the Etymidian back to Northrend!',0,0,0,0,0,0,0,0,0,0,0,0,'High Cultist Herenn combat say');
 DELETE FROM creature_ai_scripts WHERE creature_id = 28601;
-INSERT INTO creature_aI_scripts VALUES (2860101,28601,4,0,100,0,0,0,0,0,1,-286011,0,0,0,0,0,0,0,0,0,0,'High Cultist Herenn - Say on Aggro');
+INSERT INTO creature_ai_scripts VALUES (2860101,28601,4,0,100,0,0,0,0,0,1,-286011,0,0,0,0,0,0,0,0,0,0,'High Cultist Herenn - Say on Aggro');
