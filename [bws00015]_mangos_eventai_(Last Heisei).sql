@@ -25989,7 +25989,7 @@ INSERT INTO creature_ai_scripts (id,creature_id,event_type,event_inverse_phase_m
 (77770330,30750,11,0,100,0,0,0,0,0,1,-7088,0,0,0,0,0,0,0,0,0,0,'Through the Eye - q13121'),
 (77770331,30996,8,0,100,7,49590,-1,180000,180000,33,30996,6,0,0,0,0,0,0,0,0,0,'CoT Stratholme - Crates KC Bunny - q13149'),
 (77770332,31105,8,0,100,5,58515,-1,5000,5000,33,31105,6,0,11,58522,0,32,0,0,0,0,'Ahn\'kahet Brazier KC Bunny - q13190'),
-(77770333,31304,11,0,100,0,0,0,0,0,17,54,1732,0,0,0,0,0,0,0,0,0,'Dying Soldier set faction ALLIANE on respawn - He change faction on q13232'),
+(77770333,31304,11,0,100,0,0,0,0,0,2,1732,0,0,0,0,0,0,0,0,0,0,'Dying Soldier set faction ALLIANE on respawn - He change faction on q13232'),
 (77770334,31304,4,0,100,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,'Dying Soldier ignore aggro '),
 (77770335,31273,4,0,100,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,'Dying Berserker ignore aggro '),
 (77770336,31397,0,1,100,0,1000,1000,0,0,17,54,2070,0,23,-1,0,0,24,0,0,0,'Slaves to Saronite Kill Credit Bunny q13300 - q13302'),
