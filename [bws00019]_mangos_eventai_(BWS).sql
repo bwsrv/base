@@ -89,14 +89,6 @@ INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phas
 (2248209, 22482, 7, 0, 100, 0, 0, 0, 0, 0, 11, 20567, 0, 0, 22, 1, 0, 0, 11, 29147, 0, 0, 'Mature Bone Sifter - On Evade Set Phase to 1 Cast Submerge and Set Flag Unattackable'),
 (2248210, 22482, 7, 0, 100, 0, 0, 0, 0, 0, 14, -100, 0, 0, 18, 33554434, 0, 0, 0, 0, 0, 0, 'Mature Bone Sifter - On Evade Drop Aggro and Set Unselectable and Unattackable Flags');
 
--- QUEST Scalps!
-UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 28600;
-DELETE FROM creature_ai_scripts WHERE id=2846505;
-DELETE FROM creature_ai_scripts WHERE creature_id=28600;
-INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
-(2846505, 28465, 8, 0, 100, 1, 52090, -1, 0, 0, 33, 28622, 6, 0, 41, 0, 0, 0, 0, 0, 0, 0, 'quest kill credit 28622 (q12659)'),
-(2860001, 28600, 8, 0, 100, 1, 52090, -1, 0, 0, 33, 28622, 6, 0, 41, 0, 0, 0, 0, 0, 0, 0, 'quest kill credit 28622 (q12659)');
-
 -- QUEST The Restless Dead
 DELETE FROM creature_ai_scripts WHERE id IN (3104301, 3104302);
 INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
