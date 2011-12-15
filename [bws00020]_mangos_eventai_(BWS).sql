@@ -158,3 +158,11 @@ DELETE FROM creature_ai_scripts WHERE id = 2811002;
 INSERT INTO creature_ai_scripts
 (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`)
 VALUES (2811002,28110,8,0,100,0,52992,-1,0,0,33,29043,6,0,0,0,0,0,0,0,0,0,'Kill Credit - Rejeks Blade blooded on Mistwhisper Oracle');
+
+-- QUEST Whispers of the Raven God - Grishna mobs cast Detect Whispers on Death
+DELETE FROM creature_ai_scripts WHERE id IN (1998850, 1998950, 1999050, 2032950);
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(1998850, 19988, 6, 0, 100, 0, 0, 0, 0, 0, 11, 37473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Grishna Falconwing - Cast Detect Whispers on Death'),
+(1998950, 19989, 6, 0, 100, 0, 0, 0, 0, 0, 11, 37473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Grishna Harbinger - Cast Detect Whispers on Death'),
+(1999050, 19990, 6, 0, 100, 0, 0, 0, 0, 0, 11, 37473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Grishna Scorncrow - Cast Detect Whispers on Death'),
+(2032950, 20329, 6, 0, 100, 0, 0, 0, 0, 0, 11, 37473, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Grishna Matriarch - Cast Detect Whispers on Death');
