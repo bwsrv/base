@@ -171,3 +171,8 @@ INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phas
 DELETE FROM creature_ai_scripts WHERE id IN (2005850);
 INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
 (2005850, 20058, 8, 0, 100, 1, 36310, -1, 60000, 60000, 33, 21176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Bloodmaul Dire Wolf - give quest A Dire Situation (10506) credit on Rina\'s Diminution Powder spell hit');
+
+-- QUEST Protecting Our Own (10488) - Thunderlord Dire Wolf give quest credit on Gor\'drek\'s Ointment spell hit
+DELETE FROM creature_ai_scripts WHERE id IN (2074850);
+INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
+(2074850, 20748, 8, 0, 100, 1, 32578, -1, 60000, 60000, 33, 21142, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Thunderlord Dire Wolf - give quest Protecting Our Own (10488) credit on Gor\'drek\'s Ointment spell hit');
