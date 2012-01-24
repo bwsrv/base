@@ -1,33 +1,33 @@
-## Название: Under Attack PvP Arena Gurubashi
-## Версия: 3.0 Final
-## Авторы: GrEM fM Team, mosst, stoun.
-## Адаптировано под 3.3.5
+## РќР°Р·РІР°РЅРёРµ: Under Attack PvP Arena Gurubashi
+## Р’РµСЂСЃРёСЏ: 3.0 Final
+## РђРІС‚РѕСЂС‹: GrEM fM Team, mosst, stoun.
+## РђРґР°РїС‚РёСЂРѕРІР°РЅРѕ РїРѕРґ 3.3.5
 ## ======================
-# Предыстория:
-# В давние времена жил в Азероте талантливый воин. Он объездил все страны и континенты
-# борясь со злом и несправедливостью. За время своих походов он не только отточил своё
-# мастерство и силу, но и повидал много всего ужасного. Он бился с различными порождениями
-# зла, и постепенно характер его менялся. В итоге он сам стал монстром. Устав от всего,
-# воин поселился подальше от людей, в темных подвалах развалин старой арены Гурубаши...
-# Но время не стоит на месте, арену вновь отстроили, и новые поколения бойцов стали
-# принимать участие в боях на арене. Шум, говор и лязг оружия не дают покоя старому
-# воину-монстру. Он взбешен. Он хочет покоя. И для этого решил сорвать бои на арене. Раз
-# в неделю в самый разгар боев монстр появляется на арене и пытается уничтожить всех, кто
-# попадется ему под руку.
+# РџСЂРµРґС‹СЃС‚РѕСЂРёСЏ:
+# Р’ РґР°РІРЅРёРµ РІСЂРµРјРµРЅР° Р¶РёР» РІ РђР·РµСЂРѕС‚Рµ С‚Р°Р»Р°РЅС‚Р»РёРІС‹Р№ РІРѕРёРЅ. РћРЅ РѕР±СЉРµР·РґРёР» РІСЃРµ СЃС‚СЂР°РЅС‹ Рё РєРѕРЅС‚РёРЅРµРЅС‚С‹
+# Р±РѕСЂСЏСЃСЊ СЃРѕ Р·Р»РѕРј Рё РЅРµСЃРїСЂР°РІРµРґР»РёРІРѕСЃС‚СЊСЋ. Р—Р° РІСЂРµРјСЏ СЃРІРѕРёС… РїРѕС…РѕРґРѕРІ РѕРЅ РЅРµ С‚РѕР»СЊРєРѕ РѕС‚С‚РѕС‡РёР» СЃРІРѕС‘
+# РјР°СЃС‚РµСЂСЃС‚РІРѕ Рё СЃРёР»Сѓ, РЅРѕ Рё РїРѕРІРёРґР°Р» РјРЅРѕРіРѕ РІСЃРµРіРѕ СѓР¶Р°СЃРЅРѕРіРѕ. РћРЅ Р±РёР»СЃСЏ СЃ СЂР°Р·Р»РёС‡РЅС‹РјРё РїРѕСЂРѕР¶РґРµРЅРёСЏРјРё
+# Р·Р»Р°, Рё РїРѕСЃС‚РµРїРµРЅРЅРѕ С…Р°СЂР°РєС‚РµСЂ РµРіРѕ РјРµРЅСЏР»СЃСЏ. Р’ РёС‚РѕРіРµ РѕРЅ СЃР°Рј СЃС‚Р°Р» РјРѕРЅСЃС‚СЂРѕРј. РЈСЃС‚Р°РІ РѕС‚ РІСЃРµРіРѕ,
+# РІРѕРёРЅ РїРѕСЃРµР»РёР»СЃСЏ РїРѕРґР°Р»СЊС€Рµ РѕС‚ Р»СЋРґРµР№, РІ С‚РµРјРЅС‹С… РїРѕРґРІР°Р»Р°С… СЂР°Р·РІР°Р»РёРЅ СЃС‚Р°СЂРѕР№ Р°СЂРµРЅС‹ Р“СѓСЂСѓР±Р°С€Рё...
+# РќРѕ РІСЂРµРјСЏ РЅРµ СЃС‚РѕРёС‚ РЅР° РјРµСЃС‚Рµ, Р°СЂРµРЅСѓ РІРЅРѕРІСЊ РѕС‚СЃС‚СЂРѕРёР»Рё, Рё РЅРѕРІС‹Рµ РїРѕРєРѕР»РµРЅРёСЏ Р±РѕР№С†РѕРІ СЃС‚Р°Р»Рё
+# РїСЂРёРЅРёРјР°С‚СЊ СѓС‡Р°СЃС‚РёРµ РІ Р±РѕСЏС… РЅР° Р°СЂРµРЅРµ. РЁСѓРј, РіРѕРІРѕСЂ Рё Р»СЏР·Рі РѕСЂСѓР¶РёСЏ РЅРµ РґР°СЋС‚ РїРѕРєРѕСЏ СЃС‚Р°СЂРѕРјСѓ
+# РІРѕРёРЅСѓ-РјРѕРЅСЃС‚СЂСѓ. РћРЅ РІР·Р±РµС€РµРЅ. РћРЅ С…РѕС‡РµС‚ РїРѕРєРѕСЏ. Р РґР»СЏ СЌС‚РѕРіРѕ СЂРµС€РёР» СЃРѕСЂРІР°С‚СЊ Р±РѕРё РЅР° Р°СЂРµРЅРµ. Р Р°Р·
+# РІ РЅРµРґРµР»СЋ РІ СЃР°РјС‹Р№ СЂР°Р·РіР°СЂ Р±РѕРµРІ РјРѕРЅСЃС‚СЂ РїРѕСЏРІР»СЏРµС‚СЃСЏ РЅР° Р°СЂРµРЅРµ Рё РїС‹С‚Р°РµС‚СЃСЏ СѓРЅРёС‡С‚РѕР¶РёС‚СЊ РІСЃРµС…, РєС‚Рѕ
+# РїРѕРїР°РґРµС‚СЃСЏ РµРјСѓ РїРѕРґ СЂСѓРєСѓ.
 ## ======================
-# Описание:
-# На арене раз в неделю на 1,5 часа появляется монстр. Игроки должны убить его. Из убитого
-# выпадает ценная вещь, предъявив которую вендору у ворот арены, можно получить уникальную
-# валюту сервера или 2 эмблемы льда. Респаун монстра - 10 минут и 15 минут на выполнение квеста.
+# РћРїРёСЃР°РЅРёРµ:
+# РќР° Р°СЂРµРЅРµ СЂР°Р· РІ РЅРµРґРµР»СЋ РЅР° 1,5 С‡Р°СЃР° РїРѕСЏРІР»СЏРµС‚СЃСЏ РјРѕРЅСЃС‚СЂ. РРіСЂРѕРєРё РґРѕР»Р¶РЅС‹ СѓР±РёС‚СЊ РµРіРѕ. РР· СѓР±РёС‚РѕРіРѕ
+# РІС‹РїР°РґР°РµС‚ С†РµРЅРЅР°СЏ РІРµС‰СЊ, РїСЂРµРґСЉСЏРІРёРІ РєРѕС‚РѕСЂСѓСЋ РІРµРЅРґРѕСЂСѓ Сѓ РІРѕСЂРѕС‚ Р°СЂРµРЅС‹, РјРѕР¶РЅРѕ РїРѕР»СѓС‡РёС‚СЊ СѓРЅРёРєР°Р»СЊРЅСѓСЋ
+# РІР°Р»СЋС‚Сѓ СЃРµСЂРІРµСЂР° РёР»Рё 2 СЌРјР±Р»РµРјС‹ Р»СЊРґР°. Р РµСЃРїР°СѓРЅ РјРѕРЅСЃС‚СЂР° - 10 РјРёРЅСѓС‚ Рё 15 РјРёРЅСѓС‚ РЅР° РІС‹РїРѕР»РЅРµРЅРёРµ РєРІРµСЃС‚Р°.
 ## ======================
-# Диапазоны guid в базе:
+# Р”РёР°РїР°Р·РѕРЅС‹ guid РІ Р±Р°Р·Рµ:
 # gameobject - 302000 + 7
 # gameobject_template - 500000
 # creature_template - 500010, 500011
 # creature - 304000 + 1
 # item_template - 22485
 
--- начальные guid-ы
+-- РЅР°С‡Р°Р»СЊРЅС‹Рµ guid-С‹
 SET @GAMEOBJECT := 302000;
 SET @CREATURE := 304000;
 
@@ -72,7 +72,7 @@ INSERT INTO game_event_gameobject VALUES
 (@GAMEOBJECT+6, 109),
 (@GAMEOBJECT+7, 109);
 DELETE FROM locales_gameobject WHERE entry = 500000;
-INSERT INTO locales_gameobject VALUES ('500000','','','','','','','','Портал На Гурубаши Арену.','','','','','','','','');
+INSERT INTO locales_gameobject VALUES ('500000','','','','','','','','РџРѕСЂС‚Р°Р» РќР° Р“СѓСЂСѓР±Р°С€Рё РђСЂРµРЅСѓ.','','','','','','','','');
 # BOSS --------------------------------------------------------------------------------
 DELETE FROM creature_template WHERE entry = 500010;
 INSERT INTO creature_template (entry, difficulty_entry_1, difficulty_entry_2, difficulty_entry_3, KillCredit1, KillCredit2, modelid_1, modelid_2, modelid_3, modelid_4, name, subname, IconName, gossip_menu_id, minlevel, maxlevel, minhealth, maxhealth, minmana, maxmana, armor, faction_A, faction_H, npcflag, speed_walk, speed_run, scale, rank, mindmg, maxdmg, dmgschool, attackpower, dmg_multiplier, baseattacktime, rangeattacktime, unit_class, unit_flags, dynamicflags, family, trainer_type, trainer_spell, trainer_class, trainer_race, minrangedmg, maxrangedmg, rangedattackpower, type, type_flags, lootid, pickpocketloot, skinloot, resistance1, resistance2, resistance3, resistance4, resistance5, resistance6, spell1, spell2, spell3, spell4, PetSpellDataId, mingold, maxgold, AIName, MovementType, InhabitType, unk16, unk17, RacialLeader, questItem1, questItem2, questItem3, questItem4, questItem5, questItem6, movementId, RegenHealth, equipment_id, trainer_id, vendor_id, mechanic_immune_mask, flags_extra, ScriptName) VALUES 
@@ -83,7 +83,7 @@ INSERT INTO creature (guid,id,map,spawnMask,phaseMask,modelid,equipment_id,posit
 DELETE FROM game_event_creature WHERE guid = @CREATURE+0;
 INSERT INTO game_event_creature VALUES (@CREATURE+0, 109);
 DELETE FROM locales_creature  WHERE entry = 500010;
-INSERT INTO locales_creature  VALUES ('500010','','','','','','','','Ундер',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Сумасшедший');
+INSERT INTO locales_creature  VALUES ('500010','','','','','','','','РЈРЅРґРµСЂ',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'РЎСѓРјР°СЃС€РµРґС€РёР№');
 # QuestGiver ----------------------------------------------------------------------------
 DELETE FROM creature_template WHERE entry = 500011;
 INSERT INTO creature_template (entry, difficulty_entry_1, difficulty_entry_2, difficulty_entry_3, KillCredit1, KillCredit2, modelid_1, modelid_2, modelid_3, modelid_4, name, subname, IconName, gossip_menu_id, minlevel, maxlevel, minhealth, maxhealth, minmana, maxmana, armor, faction_A, faction_H, npcflag, speed_walk, speed_run, scale, rank, mindmg, maxdmg, dmgschool, attackpower, dmg_multiplier, baseattacktime, rangeattacktime, unit_class, unit_flags, dynamicflags, family, trainer_type, trainer_spell, trainer_class, trainer_race, minrangedmg, maxrangedmg, rangedattackpower, type, type_flags, lootid, pickpocketloot, skinloot, resistance1, resistance2, resistance3, resistance4, resistance5, resistance6, spell1, spell2, spell3, spell4, PetSpellDataId, mingold, maxgold, AIName, MovementType, InhabitType, unk16, unk17, RacialLeader, questItem1, questItem2, questItem3, questItem4, questItem5, questItem6, movementId, RegenHealth, equipment_id, trainer_id, vendor_id, mechanic_immune_mask, flags_extra, ScriptName) VALUES (500011, 0, 0, 0, 0, 0, 30863, 0, 0, 0, 'Veroniya', 'Defender PvP Arena Gurubashi', '', 0, 80, 80, 10467, 15647, 57879, 59752, 7822, 35, 35, 2, 1, 1.2, 1, 3, 346, 499, 0, 287, 7.5, 2000, 69, 0, 0, 0, 0, 0, 0, 0, 0, 315, 468, 2000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 3, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1221, 0, 0, 652951551, 2, '');
@@ -93,7 +93,7 @@ INSERT INTO creature (guid,id,map,spawnMask,phaseMask,modelid,equipment_id,posit
 DELETE FROM game_event_creature WHERE guid = @CREATURE+1;
 INSERT INTO game_event_creature VALUES (@CREATURE+1, 109);
 DELETE FROM locales_creature  WHERE entry = 500011;
-INSERT INTO locales_creature  VALUES ('500011','','','','','','','','Верония',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Защитник Арена Гурубаши');
+INSERT INTO locales_creature  VALUES ('500011','','','','','','','','Р’РµСЂРѕРЅРёСЏ',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Р—Р°С‰РёС‚РЅРёРє РђСЂРµРЅР° Р“СѓСЂСѓР±Р°С€Рё');
 # Quests --------------------------------------------------------------------------------
 DELETE FROM creature_questrelation WHERE quest = 500001;
 INSERT INTO creature_questrelation (id, quest) VALUES (500011, 500001);
@@ -107,7 +107,7 @@ DELETE FROM game_event_quest WHERE quest = 500001;
 INSERT INTO game_event_quest VALUES (500001, 109);
 DELETE FROM locales_quest WHERE entry = 500001;
 INSERT INTO locales_quest VALUES 
-('500001',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Нападение на Арену Гурубаши',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Отлично! Привет храбрец. Сейчас тебе предстоит трудное испытание.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Убей Ундера, что за мной, и принеси мне утеряный Осколок Камня. В награду получишь от меня небольшой подарок.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Отлично! ты справился.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Возвращайся, когда отберёшь у него Осколок камня!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
+('500001',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'РќР°РїР°РґРµРЅРёРµ РЅР° РђСЂРµРЅСѓ Р“СѓСЂСѓР±Р°С€Рё',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'РћС‚Р»РёС‡РЅРѕ! РџСЂРёРІРµС‚ С…СЂР°Р±СЂРµС†. РЎРµР№С‡Р°СЃ С‚РµР±Рµ РїСЂРµРґСЃС‚РѕРёС‚ С‚СЂСѓРґРЅРѕРµ РёСЃРїС‹С‚Р°РЅРёРµ.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'РЈР±РµР№ РЈРЅРґРµСЂР°, С‡С‚Рѕ Р·Р° РјРЅРѕР№, Рё РїСЂРёРЅРµСЃРё РјРЅРµ СѓС‚РµСЂСЏРЅС‹Р№ РћСЃРєРѕР»РѕРє РљР°РјРЅСЏ. Р’ РЅР°РіСЂР°РґСѓ РїРѕР»СѓС‡РёС€СЊ РѕС‚ РјРµРЅСЏ РЅРµР±РѕР»СЊС€РѕР№ РїРѕРґР°СЂРѕРє.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'РћС‚Р»РёС‡РЅРѕ! С‚С‹ СЃРїСЂР°РІРёР»СЃСЏ.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Р’РѕР·РІСЂР°С‰Р°Р№СЃСЏ, РєРѕРіРґР° РѕС‚Р±РµСЂС‘С€СЊ Сѓ РЅРµРіРѕ РћСЃРєРѕР»РѕРє РєР°РјРЅСЏ!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
 
 # Quest Item ---------------------------------------------------------------------------------
 DELETE FROM item_template WHERE entry = 22485;
@@ -115,22 +115,22 @@ INSERT item_template (entry, class, subclass, unk0, name, displayid, Quality, Fl
 (22485, 15, 0, -1, 'Shard of Stone', 20220, 6, 1, 0, 1, 0, 0, 0, -1, -1, 80, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 'Pulsates in hands', 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, '', 0, 0, 0, 0, 0);
 
 DELETE FROM locales_item WHERE entry = 22485;
-INSERT INTO locales_item (entry, name_loc1, name_loc2, name_loc3, name_loc4, name_loc5, name_loc6, name_loc7, name_loc8, description_loc1, description_loc2, description_loc3, description_loc4, description_loc5, description_loc6, description_loc7, description_loc8) VALUES ('22485','','','','','','','','Осколок камня',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Пульсирует в руках');
+INSERT INTO locales_item (entry, name_loc1, name_loc2, name_loc3, name_loc4, name_loc5, name_loc6, name_loc7, name_loc8, description_loc1, description_loc2, description_loc3, description_loc4, description_loc5, description_loc6, description_loc7, description_loc8) VALUES ('22485','','','','','','','','РћСЃРєРѕР»РѕРє РєР°РјРЅСЏ',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'РџСѓР»СЊСЃРёСЂСѓРµС‚ РІ СЂСѓРєР°С…');
 
 # Boss Spells ---------------------------------------------------------------------------------
 -- SELECT * FROM creature_ai_scripts WHERE creature_id = 500010;
 DELETE FROM creature_ai_scripts WHERE creature_id = 500010;
 INSERT INTO creature_ai_scripts (id, creature_id, event_type, event_inverse_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action1_type, action1_param1, action1_param2, action1_param3, action2_type, action2_param1, action2_param2, action2_param3, action3_type, action3_param1, action3_param2, action3_param3, COMMENT) VALUES
--- стойки
+-- СЃС‚РѕР№РєРё
 (500010100,500010,4,0,100,0,0,  1000,0,   0,   11,53792, 0,0,0,0,0,0,0,0,0,0,'Under cast Battle Stance'),
 (500010101,500010,2,0,100,0,65, 60,  0,   0,   11,53791, 0,0,0,0,0,0,0,0,0,0,'Under cast Berserker Stance'),
 (500010102,500010,2,0,100,0,25, 20,  0,   0,   11,53790,   0,0,0,0,0,0,0,0,0,0,'Under cast Defensive Stance'),
--- спелы во всех стойках
-(500010103,500010,1,0,100,1,6000,8000, 6000,8000, 11,52029,   1,0,0,0,0,0,0,0,0,0,'Under cast Отталкивание'),
+-- СЃРїРµР»С‹ РІРѕ РІСЃРµС… СЃС‚РѕР№РєР°С…
+(500010103,500010,1,0,100,1,6000,8000, 6000,8000, 11,52029,   1,0,0,0,0,0,0,0,0,0,'Under cast РћС‚С‚Р°Р»РєРёРІР°РЅРёРµ'),
 (500010104,500010,1,0,100,1,8000,10000,8000,10000,11,15284,  1,0,0,0,0,0,0,0,0,0,'Under cast Cleave'),
--- cпелы в Defensive Stance
+-- cРїРµР»С‹ РІ Defensive Stance
 (500010105,500010,2,0,100,1,19, 0,  25000,   26000,   11,23920,  0,0,0,0,0,0,0,0,0,0,'Under cast Spell Reflection'),
-(500010106,500010,2,0,100,1,10, 0,  12000,   15000,   11,36096,    0,0,0,0,0,0,0,0,0,0,'Under cast отражение');
+(500010106,500010,2,0,100,1,10, 0,  12000,   15000,   11,36096,    0,0,0,0,0,0,0,0,0,0,'Under cast РѕС‚СЂР°Р¶РµРЅРёРµ');
 
 -- Update
 UPDATE item_template SET flags = flags|2048 WHERE entry IN (22485, 38186);
