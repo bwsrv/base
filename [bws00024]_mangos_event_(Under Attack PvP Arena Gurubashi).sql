@@ -1,4 +1,4 @@
-## Название: Under Attack PvP Arena Gurubashi
+﻿## Название: Under Attack PvP Arena Gurubashi
 ## Версия: 3.0 Final
 ## Авторы: GrEM fM Team, mosst, stoun.
 ## Адаптировано под 3.3.5
